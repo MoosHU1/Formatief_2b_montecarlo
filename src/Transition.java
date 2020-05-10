@@ -17,7 +17,9 @@ public class Transition {
             List<Node> potentialNext = con.get(currentNode);
             Random rand = new Random();
             int index = rand.nextInt(potentialNext.size());
+            //De volgende state wordt één van de twee mogelijk volgende met een 50/50 kans
             Node nextNode = potentialNext.get(index);
+            //Als de huidige staat begint met dobbel is er een uitkomst, deze wordt geprint en de fsm stopt
             if ((potentialNext.get(index).getNaam()).matches("dobbel(.*)")) {
                 System.out.println(nextNode.getNaam());
                 break;

@@ -20,7 +20,7 @@ public class Main {
         Node dobbel6 = new Node("dobbel6");
         
 
-        //Mogelijk volgende staat na staat x
+        //Mogelijk volgende state na state x
         List<Node> next0 = new ArrayList<Node>();
         next0.add(s1);
         next0.add(s2);
