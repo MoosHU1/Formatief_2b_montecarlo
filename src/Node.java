@@ -7,5 +7,6 @@ public class Node {
 
     public String getNaam() {
         return naam;
+
     }
 }

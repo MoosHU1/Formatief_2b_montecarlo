@@ -55,8 +55,8 @@ public class Main {
         connecties.put(s5,next5);
         connecties.put(s6,next6);
 
-        Transition t1 = new Transition();
+        FSM montecarlo = new FSM();
 
-        t1.run(s0, connecties);
+        System.out.println(montecarlo.run(s0, connecties));
     }
 }
